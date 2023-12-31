@@ -8,3 +8,6 @@ $ git clone https://github.com/ReginoSaka/pdsnd_github.git
 $ cd pdsnd_github
 
 ```
+
+# Usage
+Run the Bikeshare.py file in console and follow the instructions displayed. The city can be selected and additional filter can be applied. Then different statistics are displayed and the user can decide if the raw data should be displayed and if the user wants to restart the project.
