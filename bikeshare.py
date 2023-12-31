@@ -28,20 +28,20 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
         month = input('For which month would you like to see data for: All, January, February,..., June?\n')
-        if month.lower() not in ('all', 'january', 'february','march','april','may','june'):
+        month = month.lower()
+        if month not in ('all', 'january', 'february','march','april','may','june'):
             print('Invalid input for month. Please choose from All, January, February,..., June')
         else:
-            month = month.lower()
             break
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input('For which weekday would you like to see data for: All, Monday, Tuesday, ... Sunday\n')
-        if day.lower() not in ('all', 'monday', 'tuesday','wednesday','thursday','friday','saturday', 'sunday'):
+        day = day.lower
+        if day not in ('all', 'monday', 'tuesday','wednesday','thursday','friday','saturday', 'sunday'):
             
             print('Invalid input for weekday. Please choose from All, Monday, Tuesday, ... Sunday')
         else:
-            day = day.lower()
             break
 
     print('-'*40)
