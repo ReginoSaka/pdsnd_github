@@ -206,7 +206,7 @@ def main():
                 i=i+5
             else:
                 break
-
+        # Display option to restart the project
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
