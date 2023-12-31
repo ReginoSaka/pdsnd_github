@@ -197,6 +197,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         
+        # Display option to display 5 entries of the raw data, this is repeated until the user enter 'no'
         i=0
         while True:
             raw_data = input('\nWould you like to see through the raw data? Enter yes or no.\n')
